@@ -1,0 +1,103 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head> 
+		<meta name="viewport" content="width=device-width, initial-scale=1">
+		<link rel="stylesheet" type="text/css" href="css/bootstrap.css">
+
+		<!-- Website CSS style -->
+		<link rel="stylesheet" type="text/css" href="css/main.css">
+
+		<!-- Website Font style -->
+                <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/font-awesome/4.6.1/css/font-awesome.min.css">
+		
+		<!-- Google Fonts -->
+		<link href='https://fonts.googleapis.com/css?family=Passion+One' rel='stylesheet' type='text/css'>
+		<link href='https://fonts.googleapis.com/css?family=Oxygen' rel='stylesheet' type='text/css'>
+
+		<title>Registro</title>
+                  <link rel="stylesheet" href="css/bootstrap.min.css">
+                    <script src="js/popper.js"></script>
+                    <script src="js/jquery-3.2.1.min.js"></script>
+                    <script src="js/bootstrap.js"></script>
+                    <script src="js/main.js"></script> <!-- Para poder utilizar main.js-->
+    </head>
+	<body>
+		<div class="container">
+			<div class="row main">
+				<div class="panel-heading">
+	               <div class="panel-title text-center">
+	               		<h1 class="title">REGISTRO</h1>
+	               		<hr />
+	               	</div>
+	            </div> 
+				<div class="main-login main-center">
+				
+						
+						<div class="form-group">
+							<label for="name" class="cols-sm-2 control-label">Nombre</label>
+							<div class="cols-sm-10">
+								<div class="input-group">
+									<span class="input-group-addon"><i class="fa fa-user fa" aria-hidden="true"></i></span>
+									<input type="text" class="form-control" name="name" id="nombre"  placeholder="Nombre"/>
+								</div>
+							</div>
+						</div>
+
+						<div class="form-group">
+							<label for="email" class="cols-sm-2 control-label">Apellido Paterno</label>
+							<div class="cols-sm-10">
+								<div class="input-group">
+									<span class="input-group-addon"><i class="fa fa-envelope fa" aria-hidden="true"></i></span>
+									<input type="text" class="form-control" name="paterno" id="paterno"  placeholder="Apellido paterno"/>
+								</div>
+							</div>
+						</div>
+
+						<div class="form-group">
+							<label for="username" class="cols-sm-2 control-label">Apellido Materno</label>
+							<div class="cols-sm-10">
+								<div class="input-group">
+									<span class="input-group-addon"><i class="fa fa-users fa" aria-hidden="true"></i></span>
+									<input type="text" class="form-control" name="materno" id="materno"  placeholder="Apellido materno"/>
+								</div>
+							</div>
+						</div>
+                                            
+                                            
+                                                <div class="form-group">
+							<label for="username" class="cols-sm-2 control-label">Telefono</label>
+							<div class="cols-sm-10">
+								<div class="input-group">
+									<span class="input-group-addon"><i class="fa fa-users fa" aria-hidden="true"></i></span>
+									<input type="text" class="form-control" name="telefono" id="telefono"  placeholder="Telefono"/>
+								</div>
+							</div>
+						</div>
+                                            
+                                                <div class="form-group">
+							<label for="username" class="cols-sm-2 control-label">Tipo de persona</label>
+							<div class="cols-sm-10">
+                                                            
+								<div class="input-group">
+									<span class="input-group-addon"><i class="fa fa-users fa" aria-hidden="true"></i></span>
+									<input type="number" class="form-control" name="tipo" id="tipo"  placeholder="Tipo de persona"/>
+								</div>
+							</div>
+						</div>
+
+                                                <div class="cols-sm-10" id='loading' style='display: none'>
+                                                    <img src="loading.gif" title="Loading" />
+                                                </div>
+
+						<div class="form-group ">
+                                                    <button type="button" id="boton" class="btn btn-primary btn-lg btn-block login-button" onclick="senddata2Back()">Registro</button> <!--Se manda llamar la función senddata2Back() que se encuentra en main.js-->
+						</div>
+					
+				</div>
+			</div>
+		</div>
+
+		<script type="text/javascript" src="js/bootstrap.js"></script>
+	</body>
+</html>
+
